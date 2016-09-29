@@ -9,16 +9,27 @@
   <meta name="author" content="Alex och Andrea">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 </head>
 
 <body>
-<h1>Star Wars API</h1>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84082917-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
 <h1><form action="#">
     <input id="prompt" width="60" type="text" />
     <input id="sub" type="submit" />
 </form>
 </h1>
-
+<h1>Star Wars API</h1>
 <h1><img id="stormtrooper" width="100px" height="100px" src="white-stormtrooper-512.png">
 </h1>
 
@@ -27,10 +38,33 @@
 </div>
   
   <div class="one">
-  <h1><script src="api.js"></script>
+  <script src="api.js"></script>
   <br>
+    <h1><script language="JavaScript">
+/*
+Random Image Script- By JavaScript Kit (http://www.javascriptkit.com) 
+Over 400+ free JavaScripts here!
+Keep this notice intact please
+*/
 
-</h1>
+function random_imglink(){
+var myimages=new Array()
+//specify random images below. You can have as many as you wish
+myimages[1]="http://67.media.tumblr.com/7c53a0454aa607ef4cec820972961e69/tumblr_o5fiynvcm41rlapeio1_540.gif"
+myimages[2]="http://bestanimations.com/Sci-Fi/StarWars/yoda-sat-wars-animated-gif-3.gif"
+myimages[3]="http://i.imgur.com/Fpkz2Va.gif"
+myimages[4]="https://media.giphy.com/media/vt4gALQsxCDmM/giphy.gif"
+myimages[5]="https://media.giphy.com/media/EXwLWGViGKevm/giphy.gif"
+myimages[6]="http://i4.photobucket.com/albums/y145/MoonlightStorm/gifs/gifleiashutup.gif"
+
+var ry=Math.floor(Math.random()*myimages.length)
+if (ry==0)
+ry=1
+document.write('<img src="'+myimages[ry]+'" border=0>')
+}
+random_imglink()
+//-->
+</script></h1>
   </div>
 
 
