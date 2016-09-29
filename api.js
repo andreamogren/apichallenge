@@ -73,7 +73,7 @@ $(document).ready(function(){
 function getData() {
   // do jQuery
    var starwars;
-  $.get('http://swapi.co/api/people/', function(response) {
+  $.get('https://swapi.co/api/people/', function(response) {
    starwars = response.results;
    console.log(inpTxt);
    var query = inpTxt; //replace this with input if you get it to work.
