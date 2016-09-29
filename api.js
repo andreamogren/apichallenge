@@ -5,7 +5,7 @@ $.ajax({
   type: 'GET',
 
   // The URL to make the request to.
-  url: 'http://swapi.co/api/people/',
+  url: 'https://swapi.co/api/people/',
 
   // The 'contentType' property sets the 'Content-Type' header.
   // The JQuery default for this property is
