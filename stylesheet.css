@@ -15,7 +15,8 @@ h1{
     font-size:60px;
     font-family: 'DistantGalaxy';
     color: white;
-    text-align:center;
+    text-align: left;
+    margin-left: 500px;
 }
 
 p {
