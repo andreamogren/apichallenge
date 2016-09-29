@@ -5,20 +5,26 @@ body {
     width: 100%;*/
 }
 
+@font-face {
+  font-family: 'DistantGalaxy';
+  src: url('fonts/DISTGRG_.ttf');
+  src: local('DISTGRG Regular'), local('DISTGRG'), url('fonts/DISTGRG_.ttf') format('truetype');
+}
+
 h1{
     font-size:60px;
-    font-family: impact;
-    color:white;
+    font-family: 'DistantGalaxy';
+    color: white;
     text-align:center;
 }
 
 p {
-    text-align: left;
-    font-family: impact;
+    text-align: center;
+    font-family: 'DistantGalaxy';
     font-size: 20px;
     color:white;
-    margin-left:520px;
 }
+
 .zero {
    max-width: 100%;
    height:700;
@@ -51,12 +57,12 @@ p {
     font-size:40px;
     color:white;
     position:absolute;
-    font-family:impact;
+    font-family: 'DistantGalaxy';
 
 }
 
 #output1 {
   font-size:35px;
   color:red;
-  font-family:impact;
+  font-family:'DistantGalaxy';
 }
