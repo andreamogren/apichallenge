@@ -86,7 +86,9 @@ function getData() {
 
    
    console.log(found);
-   document.getElementById('output1').innerHTML = ("Name: "+ found.name +"<br>Height: " +found.height+"<br>Eye color: "+found.eye_color);
+   document.getElementById('output1').innerHTML = ("Name: "+ found.name +
+    "<br>Height: " +found.height+"<br>Eye color: "+found.eye_color+
+    "<br>Weight: "+found.mass+"<br>Birth year: "+found.birth_year+"<br>Gender: "+found.gender);
   
   });
 }
